@@ -1631,67 +1631,6 @@ QDoubleSpinBox::down-arrow:off
 }</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QComboBox" name="comboBox_2">
-    <property name="geometry">
-     <rect>
-      <x>320</x>
-      <y>130</y>
-      <width>180</width>
-      <height>50</height>
-     </rect>
-    </property>
-    <property name="cursor">
-     <cursorShape>PointingHandCursor</cursorShape>
-    </property>
-    <property name="toolTip">
-     <string>choose currency to convert from</string>
-    </property>
-    <item>
-     <property name="text">
-      <string>Egyptian Pound</string>
-     </property>
-     <property name="icon">
-      <iconset>
-       <normaloff>images/egypationPound.png</normaloff>images/egypationPound.png</iconset>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>United States Dollar </string>
-     </property>
-     <property name="icon">
-      <iconset>
-       <normaloff>images/dollar.png</normaloff>images/dollar.png</iconset>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Euro</string>
-     </property>
-     <property name="icon">
-      <iconset>
-       <normaloff>images/euro.png</normaloff>images/euro.png</iconset>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>indian rupee</string>
-     </property>
-     <property name="icon">
-      <iconset>
-       <normaloff>images/irupee.png</normaloff>images/irupee.png</iconset>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>japanese yen</string>
-     </property>
-     <property name="icon">
-      <iconset>
-       <normaloff>images/japanese-yen.png</normaloff>images/japanese-yen.png</iconset>
-     </property>
-    </item>
-   </widget>
    <widget class="QComboBox" name="comboBox_1">
     <property name="geometry">
      <rect>
@@ -1750,6 +1689,51 @@ QDoubleSpinBox::down-arrow:off
      <property name="icon">
       <iconset>
        <normaloff>images/japanese-yen.png</normaloff>images/japanese-yen.png</iconset>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Turkish lira</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>images/turkish-lira.png</normaloff>images/turkish-lira.png</iconset>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Emirates Dirham</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>images/EmiratesDirham .png</normaloff>images/EmiratesDirham .png</iconset>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tunisian Dinar</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>images/tunisia.png</normaloff>images/tunisia.png</iconset>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>South Korean won</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>images/south-korean-won.png</normaloff>images/south-korean-won.png</iconset>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Saudi Riyal</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>images/saudi.png</normaloff>images/saudi.png</iconset>
      </property>
     </item>
    </widget>
@@ -1869,6 +1853,112 @@ QDoubleSpinBox::down-arrow:off
     <property name="readOnly">
      <bool>true</bool>
     </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>130</y>
+      <width>180</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>choose currency to convert from</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Egyptian Pound</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>images/egypationPound.png</normaloff>images/egypationPound.png</iconset>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>United States Dollar </string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>images/dollar.png</normaloff>images/dollar.png</iconset>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Euro</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>images/euro.png</normaloff>images/euro.png</iconset>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>indian rupee</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>images/irupee.png</normaloff>images/irupee.png</iconset>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>japanese yen</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>images/japanese-yen.png</normaloff>images/japanese-yen.png</iconset>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Turkish lira</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>images/turkish-lira.png</normaloff>images/turkish-lira.png</iconset>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Emirates Dirham</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>images/EmiratesDirham .png</normaloff>images/EmiratesDirham .png</iconset>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tunisian Dinar</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>images/tunisia.png</normaloff>images/tunisia.png</iconset>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>South Korean won</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>images/south-korean-won.png</normaloff>images/south-korean-won.png</iconset>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Saudi Riyal</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>images/saudi.png</normaloff>images/saudi.png</iconset>
+     </property>
+    </item>
    </widget>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
