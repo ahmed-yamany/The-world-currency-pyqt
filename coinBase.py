@@ -19,7 +19,7 @@ class MainApp(QMainWindow, FORM_CLASS):
         QMainWindow.__init__(self)
         self.setupUi(self)
         self.result_button.clicked.connect(self.coinbase)
-        self.clear_button.clicked.connect(self.clear_textq)
+        self.clear_button.clicked.connect(self.clear_text)
 
     def coinbase(self):
         get_1 = str(self.lineEdit.text())
